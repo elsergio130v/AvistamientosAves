@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial,sans-serif;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    background-color: #98d6b99e;
+
+}
+form{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+h3{
+    font-size: 40px;
+    color: #424d55;
+}
+
+.container{
+    margin-top:50px;
+    width:30rem;
+    height:35rem;
+    padding: 30px;
+    background-color:#ffffffb3;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+        rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+        rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.dos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 328px;
+    width: 400px;
+}
+.elige{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Especie{
+
+}
+
+/* CSS */
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 12px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    width:50%;
+    height: 20%;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transition: .5s;
+    transform: scale(1.1) translateY(-5px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+input{
+    height: 50px;
+    width: 45%;
+    padding: 0px 10px;
+    border:none;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    border-radius: 12px;
+    outline:none;
+    transition: all .5s;
+}
+input:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+input:focus{
+    box-shadow: 0 0 10px #719ECE;
+    transform: scale(1.1);
+}
+input:active{
+    transform: scale(1.1);
+    border: none;
+}
+input[type='radio']{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    box-shadow: none;
+    filter: drop-shadow(2px 2px 2px #00000047);
+}
+input[type='checkbox']{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    box-shadow: none;
+    filter: drop-shadow(2px 2px 2px #00000047);
+}
+.Especie p{
+    height: 15px;
+    margin: 5px;
+}
+table {
+    width: 100%;
+    border-spacing: 8px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+td{
+    border:none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #c6eddd;
+}
+th {
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7d7d7d;
+    color: white;
+    border: none;
+}
+

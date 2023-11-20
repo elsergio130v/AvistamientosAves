@@ -1,0 +1,10 @@
+es\albarregas\controllers\ControllerUpdate.class
+es\albarregas\filters\UTF8Filter.class
+es\albarregas\controllers\Vuelta.class
+es\albarregas\connections\Conexion.class
+es\albarregas\bean\Ave.class
+es\albarregas\controllers\ControllerCrear.class
+es\albarregas\controllers\FrontController.class
+es\albarregas\controllers\ControllerEliminar.class
+es\albarregas\module\FechaConverter.class
+es\albarregas\module\Modelo.class
